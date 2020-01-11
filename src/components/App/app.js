@@ -6,6 +6,7 @@ import AppHeader from "../app-header";
 import SearchPanel from "../search-panel";
 import TodoList from "../todo-list";
 import ItemStatusFilter from "../item-status-filter";
+import Adder from "../adder";
 import "./app.css"
 
 
@@ -37,25 +38,17 @@ export default class App extends Component {
     };
 
     addItem = (text) => {
-        // generate id ?
-        const newItem = {
-            label: text,
-            important: false,
-            id: this.maxId++
+        const  newItem={label:text,important:false,id:this.maxId++}
+
+        this.setState(({todoData})=>{
+            const newTodo=[...todoData,newItem];
+            return{
+                todoData:newTodo
+            }
+        })
         };
 
-        this.setState(({ todoData }) => {
-            const newArr = [
-                ...todoData,
-                newItem
-            ];
 
-            return {
-                todoData: newArr
-            };
-        });
-
-    };
 
     render() {
         return (
@@ -69,9 +62,9 @@ export default class App extends Component {
                 <TodoList
                     todos={this.state.todoData}
                     onDeleted={ this.deleteItem }/>
-
-
+            <Adder onItemAdded={this.addItem}/>
             </div>
+
         );
     }
 };
