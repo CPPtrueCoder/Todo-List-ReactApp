@@ -1,7 +1,4 @@
 import React, {Component} from "react";
-
-
-
 import AppHeader from "../app-header";
 import SearchPanel from "../search-panel";
 import TodoList from "../todo-list";
@@ -48,8 +45,12 @@ export default class App extends Component {
         })
         };
 
-
-
+    onToggleImportant=(id)=>{
+    console.log("Important " , id);
+    };
+    onToggleDone=(id)=>{
+        console.log("Done " , id);
+    };
     render() {
         return (
             <div className="todo-app">
@@ -61,7 +62,9 @@ export default class App extends Component {
 
                 <TodoList
                     todos={this.state.todoData}
-                    onDeleted={ this.deleteItem }/>
+                    onDeleted={ this.deleteItem }
+                    onToggleImportant={this.onToggleImportant}
+                    onToggleDone={this.onToggleDone}/>
             <Adder onItemAdded={this.addItem}/>
             </div>
 
