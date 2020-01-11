@@ -9,7 +9,7 @@ export  default class TodoListItem extends Component {
         this.setState((state)=>{
             return{
                 done:!state.done,
-                important: !state.important
+
             }
         });};
     onMarkImportant=()=>{
