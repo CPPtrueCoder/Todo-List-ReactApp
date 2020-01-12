@@ -4,8 +4,8 @@
     <list default="true" id="54b8d85e-4d70-4c57-b0e6-5c850743a286" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/adder/adder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/adder/adder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -107,7 +107,8 @@
       <workItem from="1578671677739" duration="2333000" />
       <workItem from="1578703836480" duration="1537000" />
       <workItem from="1578713831121" duration="9189000" />
-      <workItem from="1578758276023" duration="1421000" />
+      <workItem from="1578758276023" duration="1520000" />
+      <workItem from="1578844037248" duration="5018000" />
     </task>
     <servers />
   </component>
@@ -148,30 +149,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1154" y="328" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578670776462" />
-    <state width="916" height="245" key="GridCell.Tab.0.bottom" timestamp="1578772283500">
+    <state width="916" height="245" key="GridCell.Tab.0.bottom" timestamp="1578772393241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578772283500" />
-    <state width="916" height="245" key="GridCell.Tab.0.center" timestamp="1578772283499">
+    <state width="916" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578772393241" />
+    <state width="916" height="245" key="GridCell.Tab.0.center" timestamp="1578772393241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578772283499" />
-    <state width="916" height="245" key="GridCell.Tab.0.left" timestamp="1578772283498">
+    <state width="916" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578772393241" />
+    <state width="916" height="245" key="GridCell.Tab.0.left" timestamp="1578772393241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578772283498" />
-    <state width="916" height="245" key="GridCell.Tab.0.right" timestamp="1578772283499">
+    <state width="916" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578772393241" />
+    <state width="916" height="245" key="GridCell.Tab.0.right" timestamp="1578772393241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578772283499" />
-    <state x="863" y="145" key="SettingsEditor" timestamp="1578758726013">
+    <state width="916" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578772393241" />
+    <state x="863" y="145" key="SettingsEditor" timestamp="1578844250377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="863" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578758726013" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578758276490">
+    <state x="863" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578844250377" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578844194569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578758276490" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578844194569" />
     <state x="677" y="329" key="jetbrains.nodejs.interpreters-dialog" timestamp="1578670778352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
