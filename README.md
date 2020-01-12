@@ -23,6 +23,16 @@ You will see the App
 5. You can search your Todo
 6. App calculate active and done Todos
 
+## For developers
+Clone this repository
+
+You will have app containing 2 directories:
+1. public
+   This dir consist of index.html where React contain all App
+2. src
+   There are:
+   dir **components**, there are all parts of application <name of component>.js + <name of component>.css
+   
 
 
 
