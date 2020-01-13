@@ -29,7 +29,7 @@ export  default class  Adder extends Component{
             onChange={this.onLabelChange}
             placeholder="What needs to be done"
             value={this.state.label}/>
-            <button className="btn btn-outline-primary btn-md float-right "
+            <button className="btn btn-outline-success btn-md float-right "
         >
                 <i className="fa fa-plus"> </i></button>
         </form>
